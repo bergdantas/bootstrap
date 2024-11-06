@@ -1,0 +1,15 @@
+.container{
+    border: 2px solid blue;
+}
+
+.row{
+    border: 2px dotted green;
+}
+
+.col, .col-2, .col-4, .col-5{
+    border: 1px solid red;
+}
+
+#limitar-tamanho{
+    max-width: 500px;
+}
