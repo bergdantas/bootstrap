@@ -1,0 +1,48 @@
+/*AJUSTES GERAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0 solid black;
+}
+a,i{
+    transition: .5s;
+    text-decoration: none;
+    color: #252b2e;
+}
+a:hover{
+    text-decoration: underline;
+}
+.center-image{
+    background-size: cover;
+    background-position: center;
+
+}
+#header{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+
+}
+#header p{
+    margin-bottom: 0;
+}
+/*LOGO*/
+#logo-container{
+    display: flex;
+}
+#logo{
+    width: 150px;
+}
+/*NAV*/
+#navbar{
+    padding: 10px;;
+    margin: 10px auto;   
+}
+#navbar a{
+    width: 90px;
+    color: #444;
+}
+#navbar a:hover{
+    color: #c1b696
+}
+/*BODY*/
