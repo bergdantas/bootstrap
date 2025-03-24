@@ -1,0 +1,46 @@
+<!--projeto público. Mas, em caso de uso, referenciar o projeto original-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formulários</title>
+<!-- css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- javascript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" refer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <form>
+                        <!--campo de texto-->
+                        <div>
+                            <label for="texto" class="form-label">Um texto quaoquer</label>
+                            <input type="text" class="form-control" id="texto" name="+" aria-describedby="emailhelp" placeholder="Insira o seu endereço de correio eletrônico">
+                        </div>
+                        <!--campo de email-->
+                        <div>
+                            <label for="email" class="form-label">Correio eletrônico</label>
+                            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailhelp" placeholder="Insira o seu endereço de correio eletrônico">
+                        </div>
+            
+                        <!--campo de senha-->
+                        <div>
+                             <label for="senha" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="senha" name="senha" placeholder="Insira a senha do seu correio eletrônico">
+                        </div>
+
+                        <!--campo numérico-->
+                        <div>
+                            <label for="numero" class="form-label">Valor numérico</label>
+                           <input type="number" class="form-control" id="numero" name="numero" placeholder="Insira um nbúmero">
+                       </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
